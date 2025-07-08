@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Site Pessoal</title>
+  <link rel="stylesheet" href="Trabalho_ICC.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Menu */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #222;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      z-index: 1000;
+      transition: top 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2em;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header id="navbar">
+    <nav>
+      <a href="#topico1">Sobre Mim</a>
+      <a href="#topico2">Interesses</a>
+      <a href="#topico3">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="topico1">
+      <div class="topico1-container">
+        <div class="topico1-esquerda">
+          <div class="foto-circular">
+            <img src="imagens/foto_pessoal.jpg" alt="">
+          </div>
+          <div class="nome-usuario">Gean Marques</div>
+        </div>
+        <div class="topico1-direita">
+          <h2 class="titulos-de-topicos-azul">Sobre Mim</h2>
+          <div class="textos-de-topicos-azul">
+            <p> 
+              Primeiramente, sejam muito bem-vindos ao meu site pessoal! <br>
+              Meu nome é Gean Marques, tenho 25 anos e sou estudante de Ciência da Computação na Universidade Federal de Alfenas (UNIFAL-MG). <br>
+              Neste espaço, irei compartilhar mais sobre meus interesses, projetos e hobbies, como parte do trabalho para conclusão da matéria de Introdução à Ciência da Computação. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="topico2">
+      <div class="interesses-container">
+        <h2 class="titulo-interesses titulos-de-topicos-roxo">Interesses</h2>
+        <div class="esferas">
+          <div class="esfera-interesse">
+            <div class="foto-circular esfera-icone">
+              <img src="imagens/Steam_logo.png" alt="">
+            </div>
+            <div class="esfera-titulo">Jogos</div>
+            <div class="esfera-card">
+              <div class="card-texto">
+                <p>
+                  Desde criança, sou fascinado por jogos, sejam digitais ou de tabuleiro. O que provavelmente guiou a minha escolha pela área de tecnologia e me trouxe até aqui. <br>
+                  Os meus títulos favoritos incluem: Elden Ring, Skyrim, Path of Exile e alguns outros.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="esfera-interesse">
+            <div class="foto-circular esfera-icone">
+              <img src="imagens/vscode_logo.png" alt="">
+            </div>
+            <div class="esfera-titulo">Programação</div>
+            <div class="esfera-card">
+              <div class="card-texto">
+                <p>
+                  Dos consoles ao computador, do computador aos códigos. Desta forma foi a minha trajetória até aqui. <br>
+                  Atualmente, estou dando ênfase a um curso do freeCodeCamp sobre programação web e desenvolvimento de aplicações, mas já me envolvi com diversas linguagens; entre elas, posso destacar: C, C++, HTML, CSS, JavaScript e Python.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="esfera-interesse">
+            <div class="foto-circular esfera-icone">
+              <img src="imagens/Netflix_logo.png" alt="">
+            </div>
+            <div class="esfera-titulo">Filmes e Séries</div>
+            <div class="esfera-card">
+              <div class="card-texto">
+                <p>
+                  De maneira mais casual, também sou um grande apreciador de filmes e séries, especialmente os de ficção científica e fantasia com uma pitada de ação. <br>
+                  Alguns dos meus favoritos incluem as séries: Doctor Who e Reacher. <br>
+                  Para os filmes: De Volta para o Futuro e Matrix.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="topico3">
+      <div class="contato-titulo titulos-de-topicos-azul">Contato</div>
+      <div class="blocos-contato">
+        <div class="bloco-contato">
+          <div class="esfera-social">
+            <img src="imagens/whatsapp_icon.webp" alt="WhatsApp">
+          </div>
+          <span class="contato-info">WhatsApp: (19) 99840-9761</span>
+        </div>
+        <div class="bloco-contato">
+          <div class="esfera-social">
+            <img src="imagens/instagram_icon.svg" alt="Instagram">
+          </div>
+          <span class="contato-info">Instagram: @guyofdust</span>
+        </div>
+        <div class="bloco-contato">
+          <div class="esfera-social">
+            <img src="imagens/gmail_icon.webp" alt="E-mail">
+          </div>
+          <span class="contato-info">E-mail: gean.marques <br> @sou.UNIFAL-MG.edu.br</span>
+        </div>
+        <div class="bloco-contato">
+          <div class="esfera-social">
+            <img src="imagens/facebook_icon.png" alt="Facebook">
+          </div>
+          <span class="contato-info">Facebook: /gean.marques.18</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  /* JavaScript para esconder o menu ao rolar para baixo e mostrar ao rolar para cima */
+  <script>
+    let lastScrollTop = 0;
+    const navbar = document.getElementById("navbar");
+    let ticking = false;
+
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          if (scrollTop > lastScrollTop && scrollTop > navbar.offsetHeight) {
+            navbar.style.top = "-100px";
+          } else {
+            navbar.style.top = "0";
+          }
+          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+
+    document.addEventListener("mousemove", (e) => {
+      if (e.clientY <= 60) {
+        navbar.style.top = "0";
+      }
+    });
+  </script>
+</body>
+</html>
