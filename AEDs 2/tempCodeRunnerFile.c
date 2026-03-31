@@ -1,0 +1,1 @@
+    insereOrd(&lista, 10);
