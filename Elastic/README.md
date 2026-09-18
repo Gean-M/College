@@ -10,7 +10,7 @@ arquivos da disciplina - ambiente Docker, dataset de exemplo, anotações de
 aula e código-fonte ficam todos juntos, versionados e fáceis de encontrar.
 
 > 📌 **Se você só quer compilar e rodar o programa**, vá direto para
-> [`projeto_elastic`](./Projeto_Elastic) - lá está o
+> [`Projeto_Elastic`](./Projeto_Elastic) - lá está o
 > passo a passo completo, desde subir o Elasticsearch até fazer a primeira
 > busca na interface.
 
@@ -70,7 +70,7 @@ externas nem de Docker para compilar/rodar - só do JDK.
 Todas as instruções detalhadas (pré-requisitos, como subir o
 Elasticsearch, como compilar, como executar, como usar cada função da
 interface e solução de problemas comuns) estão no
-[README do próprio projeto](./projeto_elastic).
+[README do próprio projeto](./Projeto_Elastic).
 
 
 ## Início rápido
@@ -88,7 +88,7 @@ cd ../projeto_elastic
 
 Para o passo a passo completo (incluindo como popular o índice com o
 `wiki.json` e como configurar a conexão pela interface), consulte
-[`projeto_elastic/README.md`](./projeto_elastic/README.md).
+[`Projeto_Elastic/README.md`](./Projeto_Elastic/README.md).
 
 
 ## Contexto acadêmico
