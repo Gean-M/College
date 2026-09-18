@@ -10,7 +10,7 @@ arquivos da disciplina - ambiente Docker, dataset de exemplo, anotações de
 aula e código-fonte ficam todos juntos, versionados e fáceis de encontrar.
 
 > 📌 **Se você só quer compilar e rodar o programa**, vá direto para
-> [`projeto_elastic`](./projeto_elastic) - lá está o
+> [`projeto_elastic`](./Projeto_Elastic) - lá está o
 > passo a passo completo, desde subir o Elasticsearch até fazer a primeira
 > busca na interface.
 
